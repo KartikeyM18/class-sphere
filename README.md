@@ -25,7 +25,7 @@ A One Stop modern Classroom Management Software.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/class-sphere.git
+git clone https://github.com/KartikeyM18/class-sphere.git
 cd class-sphere
 ```
 
