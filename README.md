@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Class Sphere
 
-## Getting Started
+A One Stop modern Classroom Management Software.
 
-First, run the development server:
+## Features
+
+- 📽️ **Meeting Schedular:** Create classroom meetings in one click. 
+- 📋 **Attendance Tracker:** Effortlessly mark and manage students' daily attendance.
+- 📊 **Analytics Dashboard:** View, edit, and analyze students' subject-wise grades and average performance.
+- 🧭 **Beautiful Navigation:** Elegant sidebar for component switching and a stylish navbar with the Class Sphere branding.
+- 🌐 **Modern Tech Stack:** Built with Next.js, TypeScript, Tailwind CSS, and Shadcn for a fast, scalable, and beautiful user experience.
+
+## Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **UI Styling:** Tailwind CSS, Shadcn
+- **Live Meet:** WebRTC, getStream
+
+
+
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-repo/class-sphere.git
+cd class-sphere
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and go to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![alt text](public/dashboard.png)
+![alt text](public/attendance.png)
+![alt text](public/analytics.png)
+![alt text](public/meet.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📝 Homework Management
+- 📚 Interactive Lesson Planning
+- 🔔 Real-time Notifications
+- 📈 Advanced Analytics and Engagement Metrics
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Let’s revolutionize classroom management with Class Sphere!
+
