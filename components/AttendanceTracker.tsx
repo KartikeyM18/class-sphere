@@ -35,7 +35,7 @@ const AttendanceTracker = () => {
             <Card className="bg-[#ededed] shadow-lg rounded-2xl w-[512px]">
                 <CardContent className="p-6">
                     <h2 className="text-4xl font-semibold text-cyan-500 text-center">Attendance Tracker</h2>
-                    <p className="text-gray-600 mb-8 text-center">Mark today's attendance easily.</p>
+                    <p className="text-gray-600 mb-8 text-center">Mark today&apos;s attendance easily.</p>
                     <ul className="w-52 m-auto">
                         {students.map(student => (
                             <li key={student.id} className="flex items-center justify-between mb-2">

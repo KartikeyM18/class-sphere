@@ -16,7 +16,7 @@ const studentGrades = [
 ];
 
 const calculateAverageGrade = (grades: Record<string, string>) => {
-    const gradeValues: any = { "A+": 10, "A": 9, "B+": 8, "B": 7, "C+": 6, "C": 5, "D+": 4, "D": 3, "E+": 2, "E": 1, "F": 0 };
+    const gradeValues: Record<string, number> = { "A+": 10, "A": 9, "B+": 8, "B": 7, "C+": 6, "C": 5, "D+": 4, "D": 3, "E+": 2, "E": 1, "F": 0 };
     const total = Object.values(grades).reduce((sum, grade) => sum + (gradeValues[grade] || 0), 0);
     return (total / Object.keys(grades).length).toFixed(2);
 };

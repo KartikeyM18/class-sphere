@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { redirect } from "next/navigation";
+import Image from "next/image";
 
 const Dashboard = () => {
     const [greeting, setGreeting] = useState("Welcome to ClassSphere!");
@@ -23,7 +24,7 @@ const Dashboard = () => {
                 {greeting}
             </motion.h1>
 
-            <img src="./globe.gif" alt="globe" height={300} width={300} />
+            <Image src="/globe.gif" alt="globe" height={300} width={300} />
 
             <div className="flex w-full justify-center gap-9  mt-6">
                 <Card className="bg-white shadow-lg rounded-2xl hover:scale-105 transition delay-100">
