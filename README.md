@@ -1,6 +1,10 @@
-# Class Sphere
+# 🌍 Class Sphere
 
 A One Stop modern Classroom Management Software.
+
+# Live Website
+
+🌐 https://class-sphere.vercel.app/dashboard
 
 ## Features
 
